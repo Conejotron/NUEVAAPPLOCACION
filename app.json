@@ -23,8 +23,13 @@
       ]
     ],
     "name": "nuevaapplocacion",
+    "owner": "johnnysilverhand_2077",
     "slug": "nuevaapplocacion",
     "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -34,7 +39,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/64b41f9d-3ba5-470b-92fa-480040ba01df"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -48,10 +54,21 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.chocsub1412.realnewlocationapp"
+      "package": "com.chocsub1412.realnewlocationapp",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "64b41f9d-3ba5-470b-92fa-480040ba01df"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }

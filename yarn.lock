@@ -5103,9 +5103,9 @@ expo-pwa@0.0.123:
     commander "2.20.0"
     update-check "1.5.3"
 
-expo-sqlite@^10.3.0:
+expo-sqlite@~10.3.0:
   version "10.3.0"
-  resolved "https://registry.npmjs.org/expo-sqlite/-/expo-sqlite-10.3.0.tgz"
+  resolved "https://registry.yarnpkg.com/expo-sqlite/-/expo-sqlite-10.3.0.tgz#c2d7fa2f6777b8a8730a38cf77b2c57541ada66b"
   integrity sha512-i9jyOfDw472Ueqnhl4LvspSpBVRzeuGjPWFwDYnaBgNOV3HLeK9Q6P5ixV2/on5RenfL4jsxOQtgeZAXke9/UQ==
   dependencies:
     "@expo/websql" "^1.0.1"
