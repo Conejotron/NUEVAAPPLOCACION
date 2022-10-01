@@ -1,7 +1,29 @@
 {
   "expo": {
-    "name": "realnewlocationapp",
-    "slug": "realnewlocationapp",
+    "permissions": [
+      "ACCESS_COARSE_LOCATION",
+      "ACCESS_FINE_LOCATION",
+      "CAMERA",
+      "READ_EXTERNAL_STORAGE",
+      "READ_INTERNAL_STORAGE",
+      "RECORD_AUDIO",
+      "READ_PHONE_STATE",
+      "READ_CONTACTS",
+      "android.permission.CHANGE_CONFIGURATION",
+      "com.google.android.c2dm.permission.RECEIVE",
+      "android.permission.ACCESS_NETWORK_STATE"
+    ],
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends.",
+          "cameraPermission": "Allow $(PRODUCT_NAME) to open the camera"
+        }
+      ]
+    ],
+    "name": "nuevaapplocacion",
+    "slug": "nuevaapplocacion",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

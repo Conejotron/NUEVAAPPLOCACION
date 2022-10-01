@@ -1,10 +1,10 @@
+import React, { useState } from "react";
 import * as ImagePicker from "expo-image-picker";
 import * as Permissions from "expo-permissions";
-import React, { useState } from "react";
-import { View, Image, Text, Alert, Button } from "react-native";
-
+import { Alert, Button, Image, Text, View } from "react-native";
 import colors from "../../utils/colors";
 import { styles } from "./styles";
+
 
 const ImageSelector = ({ onImage }) => {
   const [pickedUrl, setPickedUrl] = useState(null);
@@ -44,5 +44,6 @@ const ImageSelector = ({ onImage }) => {
     </View>
   );
 };
+
 
 export default ImageSelector;
